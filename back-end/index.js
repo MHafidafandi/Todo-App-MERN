@@ -4,7 +4,7 @@ const express = require("express");
 const router = require("./routes/toDoRoute");
 const cors = require("cors");
 const app = express();
-const port = process.env.port || 5000;
+const port = process.env.port || 4040;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
